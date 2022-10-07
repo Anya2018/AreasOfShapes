@@ -1,0 +1,3 @@
+SELECT p.product, cat.category 
+FROM products p
+LEFT JOIN categories cat ON cat.category = p.category;
